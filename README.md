@@ -16,3 +16,12 @@ Google Vision API: For image analysis and OCR.
 OpenCV: For image processing and segmentation.
 Python: As the primary programming language.
 Flask: For a basic web interface (optional).
+# Detailed report
+
+Approach
+Image Analysis: Google Vision API was used to analyze the image and extract text.
+Text Extraction: OCR capabilities of the Vision API were utilized to extract text with its coordinates.
+Visual Element Segmentation: OpenCV was used to apply basic image segmentation techniques to isolate visual elements.
+HTML Structure: The extracted text and segmented visual elements were structured into a basic HTML format.
+Implementation
+The implementation was done using Python. The Google Vision API client library was used for image analysis and OCR, while OpenCV was employed for image segmentation.
